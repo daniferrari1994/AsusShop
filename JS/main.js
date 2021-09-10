@@ -177,7 +177,7 @@ let productos = [
        price:45550,
        id:5,
        name:"THOR 850P 80Plus 850W",
-       image:"images/comp05.png"
+       image:"Images/comp05.png"
     }
  ]
 
