@@ -153,25 +153,25 @@ let productos = [
        price:95000,
        id:1,
        name:"Radeon RX 5500 XT 8GB",
-       image:"images/comp01.jpg"
+       image:"Images/comp01.jpg"
     },
     {
        price:30750,
        id:2,
        name:"b550-f am4",
-       image:"images/comp02.jpg"
+       image:"Images/comp02.jpg"
     },
     {
        price:54280,
        id:3,
        name:"z590-e gaming wi-fi",
-       image:"images/comp03.jpg"
+       image:"Images/comp03.jpg"
     },
     {
        price:42600,
        id:4,
        name:"LC 240",
-       image:"images/comp04.png"
+       image:"Images/comp04.png"
     },
     {
        price:45550,
