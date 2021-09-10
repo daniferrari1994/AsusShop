@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#tabla-carrito{
+    padding: 0 !important;
+    width: 98vw;
+}
+
+body{
+    nav{
+        div{
+            display: flex;
+            justify-content: left;
+
+            div{
+                width: 40px;
+
+                img{
+                    height: 8vh;
+                }
+
+                h1{
+                    display: inline-block;
+                    font-size: 40px;
+                    color: rgb(221, 21, 21);
+                    font-family: 'Bebas Neue', cursive;
+                    margin-left: 15px;
+                }
+            }
+
+            button{
+                margin: 5px;
+            }
+
+            div{
+                width: 100vw;
+            }
+
+            button{
+                margin-left: auto;
+            }
+
+            p{
+                font-family: 'Bebas Neue', cursive;
+                color: #fff;
+                font-size: 30px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    div{
+        div{
+            div{
+                div{
+                    text-align: center;
+
+                    h5{
+                        font-family: 'Bebas Neue', cursive;
+                        letter-spacing: 1.5px;
+                        font-size: 25px;
+                        color: #dc3545;
+                    }
+                }
+            }
+        }
+    }
+
+    #bienvenida{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        background-image: url(https://dlcdnimgs.asus.com/websites/global/products/wajdd1whxk2pe2q7/img/performance/banner-performance.jpg);
+
+        div{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+            background: black;
+            opacity: 90%;
+
+            h2{
+                font-family:  'Bebas Neue', cursive;
+                font-size: 70px;
+                color: #dc3545;
+            }
+            form{
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                input{
+                    margin: 3px;
+                }
+
+                input::placeholder{
+                    text-align: center;
+                    font-family:  'Bebas Neue', cursive;
+                    color: rgb(41, 41, 41);
+                    letter-spacing: 1px;
+                }
+
+            }
+        }
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 10vh;
+
+        h6{
+
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            font-size: 15px;
+            color:rgb(160, 41, 41);
+            letter-spacing: 1px;
+        }
+
+        div{
+
+            a{
+                margin: 0 5px;
+                color: rgb(177, 79, 79);
+            }
+        }
+    }
+}
